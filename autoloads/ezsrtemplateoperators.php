@@ -25,7 +25,7 @@
 
 class ezsrTemplateOperators
 {
-    function ezsrTemplateOperators()
+    function __construct()
     {
     }
 

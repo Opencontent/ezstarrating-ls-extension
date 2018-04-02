@@ -30,7 +30,7 @@
 
 class ezsrRatingFilter
 {
-    function ezsrRatingFilter()
+    function __construct()
     {
     }
 

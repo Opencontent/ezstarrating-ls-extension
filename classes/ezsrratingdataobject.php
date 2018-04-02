@@ -37,9 +37,9 @@ class ezsrRatingDataObject extends eZPersistentObject
      *
      * @param array $row
      */
-    protected function __construct( $row )
+    function __construct( $row )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     static function definition()
